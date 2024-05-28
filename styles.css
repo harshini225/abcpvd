@@ -260,7 +260,7 @@ a {
 }
 .calendar-embed iframe {
   position: absolute; 
-  top:0; 
+  top: 0; 
   left: 0;
   width: 100%; 
   height: 100%;  
@@ -273,13 +273,13 @@ a {
   margin-left: 10%;
   margin-right: 10%;
 }
-.calendar-embed iframe {
+/* .media-embed iframe {
   position: absolute; 
   top:0; 
   left: 0;
   width: 100%; 
   height: 100%;  
-}
+} */
 .smalltext {
   font-size: 1em; 
   margin-left: 1rem;
