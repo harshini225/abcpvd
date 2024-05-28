@@ -52,12 +52,16 @@ body {
   }
   .footer {
     font-family: 'Fauna One', sans-serif;
+    font-size: 1.2em;
     background-color: #748E54; 
     position: sticky;
     bottom: 0;
     z-index: 999;
     padding: 8px;
     margin-top: 8px;
+  }
+  .ig-link {
+    float: right; 
   }
   .first {
     font-weight: 1200;
@@ -117,9 +121,22 @@ body {
       filter: black;
     }
     .members {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
     }
+    .exhibitions {
+      display: flex;
+      flex-direction: column;
+    }
+    .exhibition {
+      max-width: 80%;
+    }
+  }
+  .past-exhibitions {
+    font-family: 'Fauna One', sans-serif;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    text-align: center;
   }
   .container {
     position: relative;
